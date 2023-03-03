@@ -1,0 +1,35 @@
+.card-group{
+    grid: 25% 25% 25% 25%;
+    display: flex;
+    gap: 10px;
+    }
+    
+    #product_img img {
+    width: 300px;
+    height: 300px;
+
+    }
+    .star {
+    color: orange;
+    }
+    .title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color:white;
+    font-size: 34px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,5,5,1) 0%, rgba(98,0,255,1) 100%);
+    border-radius: 50px;
+    font-weight: bold;
+    
+    }
+    #product_price{
+    color: red;
+    }
+    .mua input{
+        width: 150px;
+        height: 40px;   
+        background: #FF6600;
+        border:none;
+    }
+   

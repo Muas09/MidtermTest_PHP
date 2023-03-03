@@ -1,0 +1,47 @@
+#container{
+    text-align: center;
+}
+/* Thiết lập định dạng cho khung form */
+.form-container {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+/* Thiết lập định dạng cho tiêu đề của form */
+.form {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    }
+/* Thiết lập định dạng cho các input trong form */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    font-weight: bold;
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* Thiết lập định dạng cho nút submit trong form */
+input[type="submit"] {
+    font-weight: bold;
+    background-color: #FF6600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Thiết lập định dạng cho các thông báo lỗi */
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+}
